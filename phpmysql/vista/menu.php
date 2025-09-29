@@ -16,6 +16,11 @@
     <li><a href="verAutos.php">Ver Autos</a></li>
     <li><a href="buscarAuto.php">Buscar auto por patente</a></li>
     <li><a href="listarPersona.php">Listar personas</a></li>
+    <li><a href="nuevaPersona.php">Nueva persona</a></li>
+    <li><a href="nuevoAuto.php">Nuevo auto</a></li>
+    <li><a href="CambioDuenio.php">Cambio de dueño</a></li>
+    <li><a href="buscarPersona.php">BuscarPersona</a></li>
+
 </ul>
 
 

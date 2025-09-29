@@ -15,8 +15,8 @@ include_once $ROOT.'util/funciones.php';
 // URL base para navegar (ajusta si tu carpeta difiere)
 // -----------------------------------------------------
 $BASE_URL = 'http://'.$_SERVER['HTTP_HOST'].'/TP4Dinamica/phpmysql/';
-$INICIO    = $BASE_URL.'vista/login.php';     // si no existe, cambialo
-$PRINCIPAL = $BASE_URL.'principal.php';       // si no existe, cambialo
+$INICIO    = $BASE_URL.'vista/menu.php';     // si no existe, cambialo
+$PRINCIPAL = $BASE_URL.'vista/menu.php';       // si no existe, cambialo
 
 // -----------------------------------------------------
 // CONFIG BD

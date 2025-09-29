@@ -11,7 +11,7 @@ class AbmPersona {
             $obj->setNroDni($param['NroDni']);
             $obj->setApellido($param['Apellido']);
             $obj->setNombre($param['Nombre']);
-            $obj->setFechaNac($param['FechaNac']);
+            $obj->setFechaNac($param['fechaNac']);
             $obj->setTelefono($param['Telefono']);
             $obj->setDomicilio($param['Domicilio']);
         }
