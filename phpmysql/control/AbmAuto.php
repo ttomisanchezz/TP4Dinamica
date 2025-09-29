@@ -26,7 +26,7 @@ private function cargarObjetoConClave($param){
     return $obj;
 }
 
-//corrobora que los campos claves essten seteados
+//corrobora que los campos claves esten seteados
 private function seteadosCamposClaves($param){
     $resp = false;
     if(isset($param['Patente'])){

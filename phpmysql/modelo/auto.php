@@ -18,36 +18,36 @@ class auto{
         $this->msjOperacion = "";
     }
 
-    public function getMsjOperacion(){
-        return $this->msjOperacion;
-    }
-    public function setMsjOperacion($msjOperacion){
-        $this->msjOperacion = $msjOperacion;
-    }
-    public function getPatente(){
-        return $this->patente;
-    }
-    public function setPatente($patente){
-        $this->$patente = $patente;
-    }
-    public function getMarca(){
-        return $this->marca;
-    }
-    public function setMarca($marca){
-        $this->$marca = $marca;
-    }
-        public function getModelo() {
-        return $this->modelo;
-    }
-    public function setModelo($modelo) {
-        $this->modelo = $modelo;
-    }
-    public function getDniDuenio() {
-        return $this->dniDuenio;
-    }
-    public function setDniDuenio($dniDuenio) {
-        $this->dniDuenio = $dniDuenio;
-    }
+        public function getMsjOperacion(){
+            return $this->msjOperacion;
+        }
+        public function setMsjOperacion($msjOperacion){
+            $this->msjOperacion = $msjOperacion;
+        }
+        public function getPatente(){
+            return $this->patente;
+        }
+        public function setPatente($patente){
+            $this->patente = $patente;
+        }
+        public function getMarca(){
+            return $this->marca;
+        }
+        public function setMarca($marca){
+            $this->marca = $marca;
+        }
+            public function getModelo() {
+            return $this->modelo;
+        }
+        public function setModelo($modelo) {
+            $this->modelo = $modelo;
+        }
+        public function getDniDuenio() {
+            return $this->dniDuenio;
+        }
+        public function setDniDuenio($dniDuenio) {
+            $this->dniDuenio = $dniDuenio;
+        }
 
     public function __toString(){
         return "Patente: " .$this->getPatente(). "\n". 

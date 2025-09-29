@@ -110,7 +110,7 @@ class persona {
         
         $dni = intval($this->getNroDni());
         
-        $sql = "INSERT INTO persona (NroDni, Apellido, Nombre, FechaNac, Telefono, Domicilio) VALUES (
+        $sql = "INSERT INTO persona (NroDni, Apellido, Nombre, fechaNac, Telefono, Domicilio) VALUES (
         '" . $this->getNroDni() . "', 
         '" . $this->getApellido() . "', 
         '" . $this->getNombre() . "', 
@@ -204,7 +204,7 @@ class persona {
                     $obj->setNroDni($row['NroDni']);
                     $obj->setApellido($row['Apellido']);
                     $obj->setNombre($row['Nombre']);
-                    $obj->setFechaNac($row['FechaNac']);
+                    $obj->setFechaNac($row['fechaNac']);
                     $obj->setTelefono($row['Telefono']);
                     $obj->setDomicilio($row['Domicilio']);
                     $array[] = $obj;
