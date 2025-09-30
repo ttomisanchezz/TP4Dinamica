@@ -1,0 +1,91 @@
+:root{
+  --card-bg: rgba(12, 14, 22, .85);
+  --ring: rgba(13,110,253,.25);
+}
+
+/* Fondo con gradiente suave */
+body{
+  background:
+    radial-gradient(1200px 700px at 50% -10%, #1e293b 0%, #0b0f16 55%, #070a0f 100%),
+    #0b0f16;
+}
+
+/* Contenedor centrado y grande */
+.menu-wrapper{
+  width: min(760px, 92vw);
+  padding: clamp(1.5rem, 3vw, 2.5rem);
+  border-radius: 1.25rem;
+  background: var(--card-bg);
+  border: 1px solid rgba(255,255,255,.08);
+  box-shadow: 0 20px 60px rgba(0,0,0,.45);
+  backdrop-filter: blur(4px);
+}
+
+/* Lista estilizada */
+.menu-list{
+  margin: 0;
+  border-radius: .9rem;
+  overflow: hidden;
+}
+
+.menu-list .list-group-item{
+  background: #f8fafc;
+  border: 0;
+  padding: 1.1rem 1.2rem;
+  transition: transform .12s ease, box-shadow .12s ease, background-color .2s ease;
+  margin-bottom: .85rem;
+  border-radius: .75rem;
+}
+
+.menu-list .list-group-item:last-child{
+  margin-bottom: 0;
+}
+
+/* Link grande y legible */
+.menu-link{
+  display: block;
+  color: #0b1220;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: clamp(1rem, 1.8vw, 1.15rem);
+  letter-spacing: .2px;
+  outline: none;
+}
+
+/* Hover lindo */
+.menu-list .list-group-item:hover{
+  transform: translateY(-3px);
+  box-shadow: 0 12px 24px rgba(0,0,0,.18);
+  background: #ffffff;
+}
+
+/* Focus accesible (sin botón extra) */
+.menu-link:focus{
+  box-shadow: 0 0 0 .22rem var(--ring);
+  border-radius: .5rem;
+}
+
+/* Título */
+h1{
+  letter-spacing: .3px;
+}
+.form-wrapper{
+  width: min(600px, 95%);
+  padding: 2.5rem;
+  border-radius: 1.25rem;
+  background: rgba(12, 14, 22, 0.9);
+  border: 1px solid rgba(255,255,255,.08);
+  box-shadow: 0 20px 60px rgba(0,0,0,.45);
+  backdrop-filter: blur(6px);
+}
+
+.form-control{
+  font-size: 1.05rem;
+  padding: 0.7rem 1rem;
+  border-radius: .6rem;
+}
+
+.form-control:focus{
+  border-color: #0d6efd;
+  box-shadow: 0 0 0 .2rem rgba(13,110,253,.25);
+}

@@ -1,30 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Menú del Trabajo Práctico</title>
+
+  <!-- Bootstrap -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  >
+  <!-- Estilos propios -->
+  <link rel="stylesheet" href="assets/styles.css">
 </head>
-<body>
 
+<body class="bg-dark d-flex justify-content-center align-items-center min-vh-100">
+  <main class="menu-wrapper">
+    <header class="text-center mb-4">
+      <h1 class="display-5 fw-bold text-white mb-2">Menú de Opciones</h1>
+      <p class="text-secondary m-0">TP4 · Personas & Autos</p>
+    </header>
 
-<H1>Menu Tp 4</H1>
+    <section>
+      <ul class="list-group list-group-flush menu-list">
+        <li class="list-group-item">
+          <a href="verAutos.php" class="menu-link">Ej3 · verAutos.php</a>
+        </li>
+        <li class="list-group-item">
+          <a href="buscarAuto.php" class="menu-link">Ej4 · buscarAuto.php</a>
+        </li>
+        <li class="list-group-item">
+          <a href="listarPersona.php" class="menu-link">Ej5 · listarPersona.php</a>
+        </li>
+        <li class="list-group-item">
+          <a href="nuevaPersona.php" class="menu-link">Ej6 · nuevaPersona.php</a>
+        </li>
+        <li class="list-group-item">
+          <a href="nuevoAuto.php" class="menu-link">Ej7 · nuevoAuto.php</a>
+        </li>
+        <li class="list-group-item">
+          <a href="CambioDuenio.php" class="menu-link">Ej8 · CambioDuenio.php</a>
+        </li>
+        <li class="list-group-item">
+          <a href="buscarPersona.php" class="menu-link">Ej9 · buscarPersona.php</a>
+        </li>
+      </ul>
+    </section>
+  </main>
 
-<div>
-
-<ul>
-    <li><a href="verAutos.php">Ver Autos</a></li>
-    <li><a href="buscarAuto.php">Buscar auto por patente</a></li>
-    <li><a href="listarPersona.php">Listar personas</a></li>
-    <li><a href="nuevaPersona.php">Nueva persona</a></li>
-    <li><a href="nuevoAuto.php">Nuevo auto</a></li>
-    <li><a href="CambioDuenio.php">Cambio de dueño</a></li>
-    <li><a href="buscarPersona.php">BuscarPersona</a></li>
-
-</ul>
-
-
-</div>
-    
+  <!-- Bootstrap JS opcional -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
